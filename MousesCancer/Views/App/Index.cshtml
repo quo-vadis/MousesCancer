@@ -1,0 +1,20 @@
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div ng-app="app">
+    
+    <h2 class="center">Mouses cancerous tumor in time</h2>
+
+    <md-content ng-controller="appController" theme="forest" ng-cloak>
+         <div id="section" class="container-fluid">
+            <div id="chart"></div>
+        </div>
+        <div layout="row" layout-align="center center" class="section2"  style="min-height: 80px">
+            <strong>Show/Hide days</strong>
+            <md-datepicker ng-model="myDate" md-placeholder="Enter date" md-current-view="month"
+                            ng-change="dateChanged()" md-min-date="minDate" md-max-date="maxDate"></md-datepicker>
+
+        </div>
+    </md-content>
+</div>

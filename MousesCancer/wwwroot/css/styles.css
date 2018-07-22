@@ -1,0 +1,29 @@
+﻿.center {
+    width: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#chart {
+    width: 90%;
+    min-width: 850px;
+    margin: 10px auto;
+}
+
+#section {
+    margin: 0 50px;
+    color: #fff;
+    background-color: rgb(236, 236, 250);
+    border-radius: 10px;
+}
+
+.section2 {
+    background-color: #E8EAF6;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+md-datepicker.md-default-theme, md-datepicker {
+    background: transparent;
+}
